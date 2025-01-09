@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="BlackInk" class="Interfaces.Impl.BlackInk">
+    </bean>  <bean id="Bitco" class="Interfaces.Impl.Bitco">
+    <constructor-arg ref="BlackInk"/>
+</bean>
+
+    <bean id="writer" class="beans.Writer">
+        <constructor-arg ref="Bitco"/>
+    </bean>
+
+</beans>
