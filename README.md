@@ -12,3 +12,7 @@
 ###  How distributed technologies work
 ![image](https://github.com/user-attachments/assets/c8d63db7-6a48-4ffc-b22a-aa361531fc26)
 
+### Rest JaxRS
+![image](https://github.com/user-attachments/assets/d663d0df-0fe1-4469-b22b-e8e6bf6da075)
+
+
